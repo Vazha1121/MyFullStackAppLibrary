@@ -1,0 +1,30 @@
+<section class="authorProdSect">
+  <div class="cardDiv">
+    @for (item of authorProd; track $index) {
+        <div class="card">
+          <div class="imgDiv">
+            <img [src]="'https://localhost:7197/' + item.imageUrl" alt="" />
+          </div>
+          <div class="btnDiv">
+            <button
+              type="button"
+              class="btn btn-success"
+              (click)="goDetail(item.productId)"
+            >
+              დეტალურად
+            </button>
+            @if (cookie.get("adminToken") || cookie.get("managerToken")) {
+              <button
+                type="button"
+                class="btn btn-danger"
+                (click)="deleteProduct(item.productId)"
+              >
+                წაშალე პროდუქტი
+              </button>
+            }
+          </div>
+        </div>
+      }
+    
+  </div>
+</section>

@@ -1,0 +1,19 @@
+<section class="prodDetailSect">
+  <div class="detailDiv">
+    <div class="imgDiv">
+      <img [src]="'https://localhost:7197/' + productDetail.imageUrl" alt="" />
+    </div>
+    <div class="infoDiv">
+      <h1>{{ productDetail.productName }}</h1>
+      <h5>{{ productDetail.authors }}ალექსანდრე ყაზბეგი</h5>
+      <p>ISBN: {{ productDetail.isbn }}</p>
+      <p>პროდუქტის ტიპი: 
+        {{ productDetail.productType == "Book" ? "წიგნი" : ""}}
+        {{ productDetail.productType == "Article" ? "სტატია" : ""}}
+        {{ productDetail.productType == "electronicResource" ? "ელექტრონილი რესურსი" : ""}}
+    </p>
+      <p>{{ productDetail.createdAt }}</p>
+      <p>{{ productDetail.desctription }}</p>
+    </div>
+  </div>
+</section>

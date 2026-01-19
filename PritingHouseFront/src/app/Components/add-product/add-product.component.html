@@ -1,0 +1,57 @@
+<section class="addProdSect" (click)="closePopUp()">
+  <div class="addProdDiv" (click)="$event.stopPropagation()">
+    <form action="" [formGroup]="productForm" (ngSubmit)="AddProduct()">
+      <div class="prodName">
+        <label for="text"></label>
+        <input
+          type="text"
+          placeholder="პროდუქტის სახელი"
+          formControlName="ProductName"
+        />
+      </div>
+      <div class="prodDesc">
+        <label for="text"></label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="პროდუქტის აღწერა"
+          formControlName="Desctription"
+        />
+      </div>
+      <div class="dropdown">
+        <label for="productType">პროდუქტის ტიპი</label>
+        <select id="productType" name="cars" formControlName="ProductType">
+          <option value="1">წიგნი</option>
+          <option value="2">სტატია</option>
+          <option value="3">ელექტრონული რესურსი</option>
+        </select>
+      </div>
+      <div class="ISBN">
+        <label for="text"></label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="ISBN"
+          formControlName="ISBN"
+        />
+      </div>
+      <div class="publisher">
+        <label for="text"></label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="publisherID"
+          formControlName="publisherId"
+        />
+      </div>
+      <div class="chooseImg">
+        <label for=""></label>
+        <input type="file" name="" id="" (change)="onFileSelected($event)" />
+      </div>
+      <button type="submit" class="btn btn-success">დაამატე პროდუქტი</button>
+    </form>
+  </div>
+</section>

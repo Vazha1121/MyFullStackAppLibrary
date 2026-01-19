@@ -1,0 +1,86 @@
+<section class="registerSec" (click)="closePopup()">
+  <div class="registerDiv" (click)="$event.stopPropagation()">
+    <h1>რეგისტრაცია</h1>
+
+    <form [formGroup]="registerForm" (ngSubmit)="Register()">
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>სახელი</mat-label>
+        <input matInput placeholder="სახელი" formControlName="firstName" />
+        <mat-error *ngIf="registerForm.get('firstName')?.hasError('required')">
+          სახელის ველი აუცილებელია
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('firstName')?.hasError('minlength')">
+          მინიმუმ 2 სიმბოლო
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('firstName')?.hasError('maxlength')">
+          მაქსიმუმ 50 სიმბოლო
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>გვარი</mat-label>
+        <input matInput placeholder="გვარი" formControlName="lastName" />
+        <mat-error *ngIf="registerForm.get('lastName')?.hasError('required')">
+          გვარის ველი აუცილებელია
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('lastName')?.hasError('minlength')">
+          მინიმუმ 2 სიმბოლო
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('lastName')?.hasError('maxlength')">
+          მაქსიმუმ 50 სიმბოლო
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>მეილი</mat-label>
+        <input
+          matInput
+          type="email"
+          placeholder="მეილი"
+          formControlName="email"
+        />
+        <mat-error *ngIf="registerForm.get('email')?.hasError('required')">
+          მეილის ველი აუცილებელია
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('email')?.hasError('email')">
+          არასწორი მეილი
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('email')?.hasError('pattern')">
+          მეილი უნდა იყოს ფორმატში example&#64;mail.com
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>პაროლი</mat-label>
+        <input
+          matInput
+          type="password"
+          placeholder="პაროლი"
+          formControlName="password"
+        />
+        <mat-error *ngIf="registerForm.get('password')?.hasError('required')">
+          პაროლის ველი აუცილებელია
+        </mat-error>
+        <mat-error *ngIf="registerForm.get('password')?.hasError('pattern')">
+          პაროლი უნდა შეიცავდეს:
+          <ul>
+            <li>1 ციფრი</li>
+            <li>1 დიდი ასო</li>
+            <li>1 პატარა ასო</li>
+            <li>1 სიმბოლო (non-alphanumeric)</li>
+            <li>8–16 სიმბოლო, უფლება გარეშე spaces</li>
+          </ul>
+        </mat-error>
+      </mat-form-field>
+
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        [disabled]="registerForm.invalid"
+      >
+        რეგისტრაცია
+      </button>
+    </form>
+  </div>
+</section>

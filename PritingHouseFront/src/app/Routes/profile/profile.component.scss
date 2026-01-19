@@ -1,0 +1,53 @@
+.profileSect {
+  max-width: 1440px;
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(190, 190, 190);
+  border-radius: 5px;
+  padding: 20px;
+  flex-wrap: wrap;
+  .userDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  }
+  .infoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    button:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .profileSect {
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    .userDiv {
+      width: 100%;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: rgb(190, 190, 190);
+    }
+    .infoDiv {
+      width: 100%;
+      border-radius: 10px;
+      background-color: rgb(190, 190, 190);
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+}

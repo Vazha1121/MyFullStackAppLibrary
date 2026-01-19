@@ -1,0 +1,72 @@
+<section class="tableSect">
+  <h1>ავტორები</h1>
+
+  <button
+    *ngIf="cookie.get('adminToken') || cookie.get('managerToken')"
+    mat-raised-button
+    color="primary"
+    (click)="AddAuthorPopUp()"
+  >
+    ავტორის დამატება +
+  </button>
+
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="firstName">
+      <th mat-header-cell *matHeaderCellDef>სახელი</th>
+      <td mat-cell *matCellDef="let item">{{ item.firstName }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="lastName">
+      <th mat-header-cell *matHeaderCellDef>გვარი</th>
+      <td mat-cell *matCellDef="let item">{{ item.lastName }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let item">
+        <button
+          *ngIf="cookie.get('userToken')"
+          mat-button
+          (click)="goBooksPage(item.authorId)"
+        >
+          წიგნები
+        </button>
+        <ng-container
+          *ngIf="cookie.get('adminToken') || cookie.get('managerToken')"
+        >
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="goBooksPage(item.authorId)"
+          >
+            წიგნები
+          </button>
+          <button
+            mat-raised-button
+            color="warn"
+            (click)="deleteAuthor(item.authorId)"
+          >
+            ავტორი წაშლა
+          </button>
+        </ng-container>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+
+  <mat-paginator
+    [length]="totalCount"
+    [pageSize]="pageSize"
+    [pageIndex]="pageIndex"
+    [pageSizeOptions]="[5, 10, 20]"
+    (page)="onPageChange($event)"
+  >
+  </mat-paginator>
+
+  <app-add-author
+    *ngIf="showAddAuthorPopUp"
+    (close)="CloseAuthorPopUp()"
+  ></app-add-author>
+</section>

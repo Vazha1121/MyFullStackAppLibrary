@@ -1,0 +1,68 @@
+<section class="addAuthorSec" (click)="closePopup()">
+  <div class="registerDiv" (click)="$event.stopPropagation()">
+    <h1>დაამატე ავტორი</h1>
+    <form action="" [formGroup]="addAuthorForm" (ngSubmit)="AddAuthor()">
+      <div class="firstName">
+        <label for="text"></label>
+        <input
+          type="text"
+          placeholder="სახელი"
+          formControlName="firstName"
+        />
+      </div>
+      <div class="lastName">
+        <label for="text"></label>
+        <input type="text" placeholder="გვარი" formControlName="lastName" />
+      </div>
+      <div class="gender">
+        <label for="text"></label>
+        <input
+          type="text"
+          placeholder="შეიყვანეთ ავტორის გენდერი გენდერი"
+          formControlName="gender"
+        />
+      </div>
+      <div class="password">
+        <label for="password"></label>
+        <input
+          type="text"
+          placeholder="პირადი ნომერი"
+          formControlName="personalNumber"
+        />
+      </div>
+      <div class="birthDate">
+        <label for="text"></label>
+        <input
+          type="text"
+          placeholder="დაბადების თარიღი"
+          formControlName="birthDate"
+        />
+      </div>
+      <div class="country">
+        <label for="text"></label>
+        <input type="text" placeholder="ქვეყანა" formControlName="countryId" />
+      </div>
+      <div class="city">
+        <label for="text"></label>
+        <input type="text" placeholder="ქალაქი" formControlName="cityId" />
+      </div>
+      <div class="phoneNumber">
+        <label for="text"></label>
+        <input
+          type="text"
+          placeholder="ტელეფონის ნომერი"
+          formControlName="phoneNumber"
+        />
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input
+          type="email"
+          placeholder="მეილი"
+          formControlName="email"
+        />
+      </div>
+      <button type="submit" class="btn btn-success">ავტორის დამატება</button>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,952 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\dtos\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\dtos\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\books\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\books\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\books\\abstactions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\books\\abstactions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\configuration\\authorbookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\configuration\\authorbookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\configuration\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\configuration\\cityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\authorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\authorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\myenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\myenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\authorss\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\authorss\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\authorss\\abstractions\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\authorss\\abstractions\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\dtos\\productdto\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\dtos\\productdto\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\dtos\\authordto\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\dtos\\authordto\\updateauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\dtos\\authordto\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\dtos\\authordto\\createauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\admin\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\admin\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\users\\abstractions\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\users\\abstractions\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\auth\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\auth\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\printinhouse.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\printinhouse.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260115172233_authorlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260115172233_authorlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\abstractions\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\abstractions\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\auth\\abstractions\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\auth\\abstractions\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\validation\\minageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\validation\\minageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\security\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\security\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\security\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\security\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\infrastructure\\services\\auth\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\infrastructure\\services\\auth\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\repositories\\dtos\\userdto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\repositories\\dtos\\userdto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\common\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\common\\dictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\configuration\\publisherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\configuration\\publisherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\database\\configuration\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\database\\configuration\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintinHouse\\PrintinHouse\\Migrations\\20260111094645_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\domain\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\domain\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260111095047_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260111095047_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260114174238_fiximageaddlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260114174238_fiximageaddlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260114163253_imageadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260114163253_imageadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260118091115_updateproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260118091115_updateproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|c:\\users\\gsshop.ge\\onedrive\\desktop\\printinghouse\\printinhouse\\migrations\\20260118090657_updatproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492F397D-21C5-428A-AC9C-1F6BB36D91D5}|PrintinHouse\\PrintingHouse.csproj|solutionrelative:printinhouse\\migrations\\20260118090657_updatproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "PrintinHouse\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:50:22.952Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Product.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:37:20.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "PrintinHouse\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:09:27.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwFEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:38:45.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260119102359_AuthorBook.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260119102359_AuthorBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:23:59.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:17:16.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IProductRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:38:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Books\\Abstactions\\IProductService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Books\\Abstactions\\IProductService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Books\\Abstactions\\IProductService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Books\\Abstactions\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:31:42.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorBookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\AuthorBookConfiguration.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Configuration\\AuthorBookConfiguration.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\AuthorBookConfiguration.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Configuration\\AuthorBookConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:10:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\CreateProductDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\CreateProductDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\CreateProductDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\CreateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:49:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\AuthorConfiguration.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Configuration\\AuthorConfiguration.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\AuthorConfiguration.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Configuration\\AuthorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:34:36.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Books\\ProductService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Books\\ProductService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Books\\ProductService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Books\\ProductService.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAqwJUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:00:54.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\CityConfiguration.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Configuration\\CityConfiguration.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\CityConfiguration.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Configuration\\CityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:39:08.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Author.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\Author.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:37:08.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthorBook.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\AuthorBook.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\AuthorBook.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\AuthorBook.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\AuthorBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T10:08:53.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:21:41.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateAuthorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\CreateAuthorDTO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:35:48.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Authorss\\Abstractions\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Authorss\\Abstractions\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Authorss\\Abstractions\\IAuthorService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Authorss\\Abstractions\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:56:53.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Authorss\\AuthorService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Authorss\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Authorss\\AuthorService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Authorss\\AuthorService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:15:12.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAA0wAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:51:02.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyEnums.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\MyEnums.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\MyEnums.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\MyEnums.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\MyEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:04:45.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateAuthorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\UpdateAuthorDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\UpdateAuthorDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\UpdateAuthorDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\AuthorDTO\\UpdateAuthorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:52:21.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Publisher.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\Publisher.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Publisher.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:43:31.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20260118091115_updateProduct2.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260118091115_updateProduct2.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260118091115_updateProduct2.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260118091115_updateProduct2.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260118091115_updateProduct2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:11:15.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\UpdateProductDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\UpdateProductDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\ProductDTO\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:10:45.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260118090657_updatProduct.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260118090657_updatProduct.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260118090657_updatProduct.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260118090657_updatProduct.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260118090657_updatProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:06:57.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Users\\Abstractions\\IUserService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Users\\Abstractions\\IUserService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Users\\Abstractions\\IUserService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Users\\Abstractions\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:16:33.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Users\\UserService.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Users\\UserService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwFoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T21:45:02.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Admin\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Admin\\Controller\\UserController.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Admin\\Controller\\UserController.cs",
+              "RelativeToolTip": "PrintinHouse\\Admin\\Controller\\UserController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T21:40:18.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\AuthServices.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Auth\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\AuthServices.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Auth\\AuthServices.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:11:33.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Program.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Program.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Program.cs",
+              "RelativeToolTip": "PrintinHouse\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAFQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:54:34.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\appsettings.json",
+              "RelativeDocumentMoniker": "PrintinHouse\\appsettings.json",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\appsettings.json",
+              "RelativeToolTip": "PrintinHouse\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T21:08:48.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PrintinHouse\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PrintinHouse\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T21:09:48.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T21:42:05.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALYUAAAAAAAAAAAAANAUAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-15T20:58:16.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260115172233_authorLogic.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260115172233_authorLogic.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260115172233_authorLogic.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260115172233_authorLogic.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260115172233_authorLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:22:33.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PrintinHouse.http",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\PrintinHouse.http",
+              "RelativeDocumentMoniker": "PrintinHouse\\PrintinHouse.http",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\PrintinHouse.http",
+              "RelativeToolTip": "PrintinHouse\\PrintinHouse.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-11T09:13:55.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IAuthorRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IAuthorRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:02:38.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IUserRepository.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\Abstractions\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:16:21.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\Abstractions\\IAuthServices.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Auth\\Abstractions\\IAuthServices.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\Abstractions\\IAuthServices.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Auth\\Abstractions\\IAuthServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:11:33.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PrintinHouse\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:09:25.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MinAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Validation\\MinAgeAttribute.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Validation\\MinAgeAttribute.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Validation\\MinAgeAttribute.cs",
+              "RelativeToolTip": "PrintinHouse\\Validation\\MinAgeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:04:32.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Security\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Security\\RoleSeeder.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Security\\RoleSeeder.cs",
+              "RelativeToolTip": "PrintinHouse\\Security\\RoleSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:04:29.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Security\\Roles.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Security\\Roles.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Security\\Roles.cs",
+              "RelativeToolTip": "PrintinHouse\\Security\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T16:04:28.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260114174238_fixImageAddLogic.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260114174238_fixImageAddLogic.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260114174238_fixImageAddLogic.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260114174238_fixImageAddLogic.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260114174238_fixImageAddLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:42:38.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260114163253_imageAdd.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260114163253_imageAdd.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260114163253_imageAdd.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260114163253_imageAdd.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260114163253_imageAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:32:53.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Infrastructure\\Services\\Auth\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Infrastructure\\Services\\Auth\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Infrastructure\\Services\\Auth\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T17:01:16.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Dictionary.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Common\\Dictionary.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Common\\Dictionary.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Common\\Dictionary.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Common\\Dictionary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:46:33.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PublisherConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\PublisherConfiguration.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Configuration\\PublisherConfiguration.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\PublisherConfiguration.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Configuration\\PublisherConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:47:49.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\UserDTO\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\UserDTO\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\UserDTO\\CreateUserDTO.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Repositories\\DTOs\\UserDTO\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:42:27.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260111095047_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260111095047_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Migrations\\20260111095047_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Migrations\\20260111095047_InitialCreate.cs",
+              "RelativeToolTip": "PrintinHouse\\Migrations\\20260111095047_InitialCreate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:50:48.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\Country.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Country.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:39:18.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CountryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\CountryConfiguration.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Database\\Configuration\\CountryConfiguration.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Database\\Configuration\\CountryConfiguration.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Database\\Configuration\\CountryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:42:10.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20260111094645_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintinHouse\\PrintinHouse\\Migrations\\20260111094645_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\PrintinHouse\\PrintinHouse\\Migrations\\20260111094645_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintinHouse\\PrintinHouse\\Migrations\\20260111094645_InitialCreate.cs",
+              "RelativeToolTip": "..\\PrintinHouse\\PrintinHouse\\Migrations\\20260111094645_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:46:45.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "VerificationCode.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\VerificationCode.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\VerificationCode.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\VerificationCode.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\VerificationCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:47:33.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\Order.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:43:18.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\City.cs",
+              "RelativeDocumentMoniker": "PrintinHouse\\Domain\\Models\\City.cs",
+              "ToolTip": "C:\\Users\\GSSHOP.GE\\OneDrive\\Desktop\\PrintingHouse\\PrintinHouse\\Domain\\Models\\City.cs",
+              "RelativeToolTip": "PrintinHouse\\Domain\\Models\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:38:00.713Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

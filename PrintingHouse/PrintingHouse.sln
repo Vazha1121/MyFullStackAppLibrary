@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingHouse", "PrintinHouse\PrintingHouse.csproj", "{492F397D-21C5-428A-AC9C-1F6BB36D91D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{492F397D-21C5-428A-AC9C-1F6BB36D91D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492F397D-21C5-428A-AC9C-1F6BB36D91D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492F397D-21C5-428A-AC9C-1F6BB36D91D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492F397D-21C5-428A-AC9C-1F6BB36D91D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

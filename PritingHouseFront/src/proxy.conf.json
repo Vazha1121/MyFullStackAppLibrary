@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "https://localhost:7197",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  },
+  "/product-images": {
+    "target": "https://localhost:7197",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

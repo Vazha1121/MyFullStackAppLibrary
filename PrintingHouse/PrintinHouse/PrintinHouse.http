@@ -1,0 +1,6 @@
+@PrintinHouse_HostAddress = http://localhost:5095
+
+GET {{PrintinHouse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

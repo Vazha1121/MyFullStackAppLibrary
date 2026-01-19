@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ბიბლიოთეკა</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">მთავარი</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="author">ავტორები</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            პროდუქტები
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" (click)="goBook(1)">წიგნები</a></li>
+            <li>
+              <a class="dropdown-item" (click)="goArticle(2)">სტატიები</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="goElResource(3)"
+                >ელექტრონული რესურსები</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 profile">
+          @if (
+            cookie.get("adminToken") ||
+            cookie.get("userToken") ||
+            cookie.get("managerToken")
+          ) {
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-user"></i>
+              </a>
+
+              <ul class="dropdown-menu userDropDown">
+                <li>
+                  <a class="dropdown-item" routerLink="profile">პროფილი</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" (click)="LogOut()">გამოსვლა</a>
+                </li>
+              </ul>
+            </li>
+          } @else {
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-user"></i>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" (click)="LoginPopUp()">შესვლა</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" (click)="RegisterPopUp()"
+                    >რეგისტრაცია</a
+                  >
+                </li>
+              </ul>
+            </li>
+          }
+        </ul>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="მოძებნე პროდუქტი"
+          aria-label="Search"
+          (input)="onSearch($event)"
+        />
+        <button type="button" class="btn btn-success">ძებნა</button>
+        <div class="collapse navbar-collapse"></div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+@if (showRegister) {
+  <app-register (close)="CloseRegisterPopUp()"></app-register>
+}
+@if (showLogin) {
+  <app-login (close)="CloseLoginPopUp()"> </app-login>
+}

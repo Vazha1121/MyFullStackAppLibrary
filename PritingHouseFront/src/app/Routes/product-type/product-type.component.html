@@ -1,0 +1,36 @@
+<section class="prodType">
+  @if (this.prodType == "Book") {
+    <h1>წიგნები</h1>
+  } @else if (this.prodType == "Article") {
+    <h1>სტატიები</h1>
+  } @else if (this.prodType == "ElectronicResource") {
+    <h1>ელექტრონული რეუსრები</h1>
+  }
+  <div class="cardDiv">
+    @for (item of prodTypeArray; track $index) {
+      <div class="card">
+        <div class="imgDiv">
+          <img [src]="'https://localhost:7197/' + item.imageUrl" alt="" />
+        </div>
+        <div class="btnDiv">
+          <button
+            type="button"
+            class="btn btn-success"
+            (click)="goDetail(item.productId)"
+          >
+            დეტალურად
+          </button>
+          @if (cookie.get("adminToken") || cookie.get("managerToken")) {
+            <button
+              type="button"
+              class="btn btn-danger"
+              (click)="deleteProduct(item.productId)"
+            >
+              წაშალე პროდუქტი
+            </button>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</section>

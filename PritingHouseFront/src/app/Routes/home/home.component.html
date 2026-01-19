@@ -1,0 +1,103 @@
+<section class="cardsSection">
+  <div class="btnDiv">
+    @if (cookie.get("managerToken") || cookie.get("adminToken")) {
+      <button type="button" class="btn btn-success" (click)="addProductPopUp()">
+        დაამატე პროდუქტი +
+      </button>
+    }
+  </div>
+  <h1>წიგნი:</h1>
+  <div class="cardDiv">
+    @for (item of productData; track $index) {
+      @if (item.productType == "Book") {
+        <div class="card">
+          <div class="imgDiv">
+            <img [src]="'https://localhost:7197/' + item.imageUrl" alt="" />
+          </div>
+          <div class="btnDiv">
+            <button
+              type="button"
+              class="btn btn-success"
+              (click)="goDetail(item.productId)"
+            >
+              დეტალურად
+            </button>
+            @if (cookie.get("adminToken") || cookie.get("managerToken")) {
+              <button
+                type="button"
+                class="btn btn-danger"
+                (click)="deleteProduct(item.productId)"
+              >
+                წაშალე პროდუქტი
+              </button>
+            }
+          </div>
+        </div>
+      }
+    }
+  </div>
+
+  <h1>სტატია:</h1>
+  <div class="cardDiv">
+    @for (item of productData; track $index) {
+      @if (item.productType == "Article") {
+        <div class="card">
+          <div class="imgDiv">
+            <img [src]="'https://localhost:7197/' + item.imageUrl" alt="" />
+          </div>
+          <div class="btnDiv">
+            <button
+              type="button"
+              class="btn btn-success"
+              (click)="goDetail(item.productId)"
+            >
+              დეტალურად
+            </button>
+            @if (cookie.get("adminToken") || cookie.get("managerToken")) {
+              <button
+                type="button"
+                class="btn btn-danger"
+                (click)="deleteProduct(item.productId)"
+              >
+                წაშალე პროდუქტი
+              </button>
+            }
+          </div>
+        </div>
+      }
+    }
+  </div>
+  <h1>ელექტრონული რესურსი:</h1>
+  <div class="cardDiv">
+    @for (item of productData; track $index) {
+      @if (item.productType == "ElectronicResource") {
+        <div class="card">
+          <div class="imgDiv">
+            <img [src]="'https://localhost:7197/' + item.imageUrl" alt="" />
+          </div>
+          <div class="btnDiv">
+            <button
+              type="button"
+              class="btn btn-success"
+              (click)="goDetail(item.productId)"
+            >
+              დეტალურად
+            </button>
+            @if (cookie.get("adminToken") || cookie.get("managerToken")) {
+              <button
+                type="button"
+                class="btn btn-danger"
+                (click)="deleteProduct(item.productId)"
+              >
+                წაშალე პროდუქტი
+              </button>
+            }
+          </div>
+        </div>
+      }
+    }
+  </div>
+</section>
+@if (showProductPopUp == true) {
+  <app-add-product (close)="CloseProductPopUp()"></app-add-product>
+}

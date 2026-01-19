@@ -1,0 +1,24 @@
+<section class="profileSect">
+  <div class="userDiv">
+    <img
+      src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+      alt=""
+    />
+    <p>{{ userInfo.firstName }} {{ userInfo.lastName }}</p>
+    <p>
+      სტატუსი:
+      {{ userInfo.isAdmin == true ? "ადმინისტრატორი" : "მომხმარებელი" }}
+    </p>
+  </div>
+  <div class="infoDiv">
+    <p>სახელი: {{ userInfo.firstName }}</p>
+    <p>გვარი: {{ userInfo.lastName }}</p>
+    <p>მეილი: {{ userInfo.email }}</p>
+    <p>
+      ვერიფიცირებული:
+      {{
+        userInfo.userIsVerified == true ? "ვერიფიცირებული" : "არავერიფიცირებული"
+      }}
+    </p>
+  </div>
+</section>
